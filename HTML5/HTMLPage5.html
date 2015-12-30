@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        ul > li {
+            font-size: 20px;
+            color: orange;
+        }
+
+        li:hover { 
+            color:blue;
+        }
+
+        input:focus {
+            border: 2px solid #ff0000;
+            padding: 10px;
+        }
+        
+        input:enabled {
+            color: #00ff00;
+            font-weight: bold;
+        }
+    
+        input:disabled {
+            color: #ff0000;
+        }
+
+        #content {
+            width: 300px;
+        }
+        
+        ul li.menu {
+            list-style:none;
+            border: 1px solid #cccccc;
+            padding: 10px;
+            background-color: #efefef;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        ul li a {
+            color: #000000;
+        }
+        
+        ul li:nth-child(2n+1) {
+            background-color: #de9393;
+        }
+        
+        ul li:first-child, ul li:last-child {
+            background-color: yellow;
+        }
+
+        ul li:first-child {
+            border-radius: 10px 10px 0 0;
+        }
+
+        ul li:last-child {
+            border-radius: 0 0 10px 10px;
+        }  
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+            <li>menu4</li>
+        </ul>
+    </div>
+
+    이름 : <input type="text"/> <br/>
+    아이디 : <input type="text"/> <br/>
+    비밀번호 : <input type="password" value="123" disabled="disabled"/> <br/>
+
+    <div id="content">
+        <ul>
+            <li class="menu"><a href="#">menu1</a></li>
+            <li class="menu"><a href="#">menu2</a></li>
+            <li class="menu"><a href="#">menu3</a></li>
+            <li class="menu"><a href="#">menu4</a></li>
+            <li class="menu"><a href="#">menu5</a></li>
+        </ul>
+    </div>
+</body>
+</html>

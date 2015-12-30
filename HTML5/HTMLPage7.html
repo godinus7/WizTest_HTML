@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        #wrap {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        #header {
+            border-bottom: 1px solid #cccccc;
+        }
+
+        #history1::first-letter, #history2::first-letter {
+            font-size: 2em;
+        }
+
+        #history1::first-line, #history2::first-line {
+            font-weight: bold;
+            color: #2160d1;
+        }
+
+        #content p:first-child::selection {
+		    background-color: blue;
+		    color: yellow;
+	    }
+
+        #footer ul {
+            overflow: hidden;
+            border: 2px solid #cccccc;
+        }
+
+        #footer ul li {
+            list-style: none;
+            float: left;
+            padding: 20px;
+        }
+
+        #content a::after {
+            content: ' - ' attr(href);
+        }
+
+        #content li:not(.fa) {
+	        background-color: #ffd800;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>설립 개요</h1>
+        </div>
+
+        <div id="content">
+            <p>ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
+            <p id="history2">
+                2014 04월 09일 <br/>블라블라블라
+            </p>
+            <p id="history1">
+                2013 01월 12일 <br />샬라샬라샬라블라블라블라
+            </p>
+
+            <a href="http://www.naver.com" target="_blank">네이버</a> <br/>
+            <ul>
+                <li><a href="a" target="_blank">a</a></li>
+                <li class="fa"><a href="b" target="_blank">b</a></li>
+                <li><a href="c" target="_blank">c</a></li>
+                <li class="fa"><a href="d" target="_blank">d</a></li>
+            </ul>
+        </div>
+
+        <div id="footer">
+            <ul>
+                <li>로고</li>
+                <li>주소정보</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
