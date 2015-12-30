@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+    	input[type=text] {
+    		color: orange;
+    		width: 200px;
+    	}
+
+    	div > h1 {
+    		color:red;
+    	}
+
+        h3~div {
+            font-size: 10px;
+            color: orange;
+        }
+        h3+div {
+		    color: red;
+	    }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input type="text" value="abc" /> <br />
+        <input type="tel" value="010-1111-1111" /><br />
+    </form>
+
+    <div id="header">
+        <h1>LOGO</h1>
+    </div>
+
+    <div id="wrap">
+        <ul>
+            <li>menu1</li>
+            <li><h1>menu2</h1></li>
+            <li>menu3</li>
+        </ul>
+    </div>
+
+
+    <h3>Test</h3>
+    <div>div1</div>
+    <div>div2</div>
+    <div>div3</div>
+    <div>
+        <ul>
+            <li>div4-1</li>
+            <li>menu1</li>
+        </ul>
+    </div>
+</body>
+</html>
