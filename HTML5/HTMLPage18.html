@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        header {
+            width: 99%;
+            margin: 0;
+            border: 1px solid #cccccc;
+        }
+
+        #header_nav {
+            width: 100%;
+            overflow: hidden;
+            background-color: #2d1152;
+        }
+
+        #header_nav li {
+            font-size: 0.9em;
+            color: #ffffff;
+            margin-right: 20px;
+            list-style: none;
+            float: left;
+        }
+
+        #header_nav .firefox {
+            float: right;
+            margin: 0 10px 0 0;
+        }
+
+        #header_nav .firefox a {
+            color: #ffffff;
+        }
+
+        #header_info {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        #header_info div {
+            margin-top: 10px;
+            float: left;
+        }
+
+        #header_info .search input {
+            width: 400px;
+            font-size: 20px;
+            border: 1px solid #3488d9;
+            margin-top: 6px;
+            padding: 5px;
+        }
+
+        #header_info .btn_search {
+            width: 124px;
+            height: 38px;
+            background: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZi0rYxDyL5yjglvj-PPiY_vwMfaxlQ9DSFHHoqWW1ZpTCyxrs') no-repeat 0 0;
+            background-size: 90%;
+            border: 0;
+        }
+
+        #header_info .txt_sw {
+            color: #ff0000;
+            font-size: 1.2em;
+        }
+
+        #header_info .service {
+            float: right;
+        }
+
+        #header_info .service li {
+            float: left;
+            list-style: none;
+            margin-right: 15px;
+        }
+
+        #content {
+            width: 1000px;
+            margin:0 auto;
+            margin-top: 85px;
+            overflow: hidden;
+        }
+
+        #content #main_nav {
+            width: 155px;
+            float: left;
+        }
+
+        #content #main_nav a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        #content ul li {
+            list-style: none;
+            line-height: 35px;
+        }
+
+        #content #main {
+            width: 600px;
+            margin-left: 5px;
+            float: left;
+        }
+
+        #content #main div {
+            border: 1px solid #cccccc;
+        }
+
+        #content #main div:nth-child(1) {
+            width: 590px;
+            height: 300px;
+        }
+
+        #content #main div:nth-child(2) {
+            width: 590px;
+            height: 150px;
+            margin-top: 5px;
+        }
+
+        #content #main div:nth-child(3) {
+            width: 590px;
+            height: 50px;
+            margin-top: 5px;
+            background-color: #500095;
+        }
+
+        #content #main div:nth-child(3) ul {
+            margin: 8px 0 0;
+        }
+
+        #content #main div:nth-child(3) ul li{
+            list-style: none;
+            float: left;
+            margin-right: 23px;
+            color: #ffffff;
+            font-size: 1.2em;
+        }
+
+        #content #main div:nth-child(4) {
+            width: 590px;
+            height: 120px;
+            margin-top: 2px;
+        }
+
+        #content #main div:nth-child(5) {
+            width: 590px;
+            height: 120px;
+            margin-top: 2px;
+        }
+
+        #content #main div:nth-child(6) {
+            width: 590px;
+            height: 120px;
+            margin-top: 2px;
+        }
+
+        #content #main_banner {
+            width: 230px;
+            margin-left: 5px;
+            float: left;
+        }
+
+        #content #main_banner div {
+            border: 1px solid #cccccc;
+        }
+
+        #content #main_banner div:nth-child(1) {
+            width: 230px;
+            height: 100px;
+            margin-top: 5px;
+        }
+
+        #content #main_banner div:nth-child(2) {
+            width: 230px;
+            height: 100px;
+            margin-top: 5px;
+        }
+
+        #content #main_banner div:nth-child(3) {
+            width: 230px;
+            height: 150px;
+            margin-top: 5px;
+        }
+
+        #content #main_banner div:nth-child(4) {
+            width: 230px;
+            height: 200px;
+            margin-top: 5px;
+        }
+
+        #content #main_banner div:nth-child(5) {
+            width: 230px;
+            height: 300px;
+            margin-top: 5px;
+        }
+
+        footer {
+            width: 1000px;
+            height: 200px;
+            line-height: 200px;
+            margin: 20px auto 0;
+            border: 1px solid #cccccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header_nav">
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>Mail</li>
+                    <li>Answers</li>
+                    <li>Groups</li>
+                    <li>Flicker</li>
+                    <li>Tumblr</li>
+                    <li>Games</li>
+                    <li>Live</li>
+                    <li>Screen</li>
+                    <li>Mobile</li>
+                    <li>More</li>
+                </ul>
+            </div>
+
+            <div class="firefox">
+                <a href="#none">Upgrade to the new FireFox >></a>
+            </div>
+        </div>
+
+        <div id="header_info">
+            <div class="logo"><img src="https://s.yimg.com/rz/l/yahoo_en-US_f_p_142x37.png" /></div>
+
+            <div class="search">
+                <input type="text" />
+                <button type="submit" class="btn_search"><span class="txt_sw">searchWeb</span></button>
+            </div>
+
+            <div class="service">
+                <ul>
+                    <li><a href="#none">My Yahoo</a></li>
+                    <li><a href="#none">Sign In</a></li>
+                    <li><a href="#none">Mail</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        <div id="main_nav">
+            <ul>
+                <li><a href="#none">Mail</a></li>
+                <li><a href="#none">News</a></li>
+                <li><a href="#none">Sports</a></li>
+                <li><a href="#none">Finance</a></li>
+                <li><a href="#none">Weather</a></li>
+                <li><a href="#none">Autos</a></li>
+                <li><a href="#none">Screen</a></li>
+                <li><a href="#none">Dating</a></li>
+                <li><a href="#none">Shopping</a></li>
+                <li><a href="#none">Makers</a></li>
+                <li><a href="#none">Parenting</a></li>
+                <li><a href="#none">Health</a></li>
+                <li><a href="#none">Style</a></li>
+                <li><a href="#none">Beauty</a></li>
+                <li><a href="#none">Politice</a></li>
+                <li><a href="#none">Movies</a></li>
+                <li><a href="#none">Travel</a></li>
+                <li><a href="#none">Tech</a></li>
+                <li><a href="#none">TV</a></li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <div>main big banner</div>
+            <div>main side banner</div>
+            <div>
+                <ul>
+                    <li>All Stories</li>
+                    <li>News</li>
+                    <li>Entertainment</li>
+                    <li>Sports</li>
+                    <li>Business</li>
+                    <li>More</li>
+                </ul>
+            </div>
+            <div>main topic</div>
+            <div>main topic</div>
+            <div>main topic</div>
+        </div>
+
+        <div id="main_banner">
+            <div>hit search word</div>
+            <div>ad1</div>
+            <div>ad2</div>
+            <div>ad3</div>
+            <div>ad4</div>
+        </div>
+    </div>
+
+    <footer>
+        FOOTER
+    </footer>
+</body>
+</html>
