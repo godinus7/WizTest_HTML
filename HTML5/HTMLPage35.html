@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <style>
+        @media screen and (max-width: 767px) {
+            #wrap {
+                width: 100%;
+            }
+            #content_wrap #content p {
+                font-size: 3em;
+                font-weight: bold;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width:959px) {
+            #wrap {
+                width: 100%;
+            }
+            #content_wrap #content p {
+                font-size: 1.5em;
+                font-weight: bold;
+                color: red;
+            }
+        }
+
+        @media screen and (min-width: 960px) {
+            #wrap {
+                width: 80%;
+            }
+            #content_wrap #content p {
+                font-size: 1em;
+                font-weight: bold;
+                color: blue;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+
+        #wrap {
+            margin: 0 auto;
+        }
+
+        #header {
+            border: 1px solid #cccccc;
+            height: 100px;
+        }
+        #header > h1 {
+            text-align: center;
+        }
+
+        #nav {
+            border: 1px solid #cccccc;
+        }
+        #nav ul {
+            overflow: hidden;
+        }
+        #nav ul li {
+            float: left;
+            text-align: center;
+            width: 20%;
+            height: 60px;
+            line-height: 60px;
+            border: 1px solid #cccccc;
+            box-sizing: border-box;
+        }
+
+        #content_wrap {
+            border: 1px solid #cccccc;
+        }
+        #content_wrap #content {
+            padding: 10px;
+        }
+        #content_wrap #content > h2 {
+            border-bottom: 1px solid #cccccc;
+            margin-bottom: 10px;
+        }
+
+        #footer {
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            border: 1px solid #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>HEADER</h1>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li>menu1</li>
+                <li>menu2</li>
+                <li>menu3</li>
+                <li>menu4</li>
+                <li>menu5</li>
+            </ul>
+        </div>
+
+        <div id="content_wrap">
+            <div id="content">
+                <h2>제목제목제목</h2>
+                <p>
+                    내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                    내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                    내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                    내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                    내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                    내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용
+                </p>
+            </div>
+        </div>
+
+        <div id="footer">
+            소속단체명
+        </div>
+    </div>
+</body>
+</html>
