@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family : 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #header {
+            height: 100px;
+            background-color: #ff9c00;
+        }
+
+        #header .logo_wrap {
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            position: relative;
+        }
+
+        #header .logo_wrap a {
+            display: inline-block;
+        }
+
+        #header .logo_wrap .menu {
+            position: absolute;
+            left: 10px;
+        }
+
+        #header .logo_wrap .logo {
+            color: #ffffff;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        #header .logo_wrap .myinfo {
+            position: absolute;
+            right: 10px;
+        }
+
+        #header #search {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 50px;
+        }
+
+        #header #search input {
+            float: left;
+            width: 100%;
+            height: 50px;
+            border: 5px solid #ea8f00;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 1.2em;
+        }
+
+        #header #search img {
+            float: left;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        #lnb ul {
+            overflow: hidden;
+            margin: 7px 0;
+        }
+
+        #lnb ul li {
+            width: 16.6%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            float: left;
+            margin: 0;
+            padding: 0;
+            border-right: 1px solid #cccccc;
+            box-sizing: border-box;
+        }
+
+        #lnb ul li:last-child {
+            border: 0;
+        }
+
+        #section #section_content1 {
+            overflow: hidden;
+        }
+
+        #section #section_content1 .row1 div {
+            width: 50%;
+            height: 135px;
+            line-height: 100px;
+            text-align: center;
+            float: left;
+            border: 2px solid #ffffff;
+            box-sizing: border-box;
+        }
+
+        #section #section_content1 .row1 div:last-child {
+            float: right;
+        }
+
+
+        #section #section_content1 .row2 div {
+            width: 50%;
+            height: 135px;
+            line-height: 100px;
+            text-align: center;
+            float: left;
+            border: 2px solid #ffffff;
+            box-sizing: border-box;
+        }
+
+        #section #section_content1 .row2 div:last-child {
+            float: right;
+        }
+
+
+        #section #section_content1 .row3 div {
+            width: 50%;
+            height: 135px;
+            line-height: 100px;
+            text-align: center;
+            float: left;
+            border: 2px solid #ffffff;
+            box-sizing: border-box;
+        }
+
+        #section #section_content1 .row3 div:last-child {
+            float: right;
+        }
+
+        #section #section_content1 img {
+            width: 100%;
+            height: inherit;
+        }
+
+        #section #section_content2 {
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        #section #section_content2 ul li {
+            padding: 8px;
+            border-bottom: 1px solid #cccccc;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        #section #section_content3 {
+            margin-top: 10px;
+        }
+
+        #section #section_content3 ul li {
+            overflow: hidden;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            box-sizing: border-box;
+        }
+
+        #section #section_content3 .img {
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+
+        #section #section_content3 .txt {
+            float: left;
+            width: 400px;
+            height: 100px;
+        }
+
+        #section #section_content3 .txt span {
+            display: block;
+            margin-left: 5px;
+        }
+
+        #section #section_content3 .txt span:first-child {
+            font-size: 1.1em;
+            color: #0d5a9c;
+            font-weight: bold;
+        }
+
+        #section #section_content3 .txt span:last-child {
+            color: #464646;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow:ellipsis;
+        }
+
+        #footer p {
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="header_wrap">
+            <div class="logo_wrap">
+                <a class="menu" href="#none" alt="menu"><img src="img/menu2.png" /></a>
+                <a class="logo" href="#none" alt="logo">Mobile Logo</a>
+                <a class="myinfo" href="#none"><img src="img/myinfo.png" /></a>
+            </div>
+
+        </div>
+
+        <div id="search">
+            <input type="text" />
+            <a href="#none"><img src="img/search.png" /></a>
+        </div>
+    </header>
+
+    <div id="lnb">
+        <ul>
+            <li><a href="#none">lnb1</a></li>
+            <li><a href="#none">lnb2</a></li>
+            <li><a href="#none">lnb3</a></li>
+            <li><a href="#none">lnb4</a></li>
+            <li><a href="#none">lnb5</a></li>
+            <li><a href="#none">lnb6</a></li>
+        </ul>
+    </div>
+
+    <section id="section">
+        <div id="section_content1">
+            <div class="row1">
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual16.jpg" /></div>
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual15.jpg" /></div>
+            </div>
+
+            <div class="row2">
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual14.jpg" /></div>
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual13.jpg" /></div>
+            </div>
+
+            <div class="row3">
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual12.jpg" /></div>
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual1.jpg" /></div>
+            </div>
+        </div>
+
+        <div id="section_content2">
+            <ul>
+                <li><a href="#none">중소 기업 지원을 ㅁㅁㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ중소 기업 지원을 ㅁㅁㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ중소 기업 지원을 ㅁㅁㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ중소 기업 지원을 ㅁㅁㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ중소 기업 지원을 ㅁㅁㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ</a></li>
+                <li><a href="#none">가나다라마랍바바바바바사사사사라라라라라라라라라라가나다라마랍바바바바바사사사사라라라라라라라라라라가나다라마랍바바바바바사사사사라라라라라라라라라라가나다라마랍바바바바바사사사사라라라라라라라라라라가나다라마랍바바바바바사사사사라라라라라라라라라라가나다라마랍바바바바바사사사사라라라라라라라라라라</a></li>
+                <li><a href="#none">얄리얄리얄라셩 얄라리 얄라</a></li>
+                <li><a href="#none">나랏말싸미 듕귁에 달아 서로 사맛디 아니할쎄 니르고저</a></li>
+                <li><a href="#none">태종태세문단세예성인블라븗라블ㄹ라블라릅라라라라블ㄹㄹ라브랄라라</a></li>
+            </ul>
+        </div>
+
+        <div id="section_content3">
+            <ul>
+                <li>
+                    <p class="img"><a href="#none"><img src="img/100img.png" /></a></p>
+                    <p class="txt">
+                        <a href="#none">
+                            <span>모바일레이아웃</span>
+                            <span>블라불라블라블라블라블라블라블라릅ㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹ</span>
+                        </a>
+                    </p>
+                </li>
+
+                <li>
+                    <p class="img"><a href="#none"><img src="img/100img.png" /></a></p>
+                    <p class="txt">
+                        <a href="#none">
+                            <span>모바일레이아웃</span>
+                            <span>블라불라블라블라블라블라블라블라릅ㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹ</span>
+                        </a>
+                    </p>
+                </li>
+
+                <li>
+                    <p class="img"><a href="#none"><img src="img/100img.png" /></a></p>
+                    <p class="txt">
+                        <a href="#none">
+                            <span>모바일레이아웃</span>
+                            <span>블라불라블라블라블라블라블라블라릅ㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹㄹ</span>
+                        </a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footer_wrap">
+            <p><img src="http://img.naver.net/static/www/u/2013/0731/nmms_224940510.gif" alt="네이버" /></p>
+            <p>네이버네이버에니어비네비</p>
+        </div>
+    </footer>
+</body>
+</html>
